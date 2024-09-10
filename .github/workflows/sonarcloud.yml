@@ -31,6 +31,8 @@ on:
   push:
     branches:
       - master
+    paths:
+      - .github/workflows/sonarcloud.yml
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
